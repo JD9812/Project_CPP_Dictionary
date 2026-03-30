@@ -39,3 +39,40 @@
 
 # debug information files
 *.dwo
+
+# Visual Studio user-specific files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+*.tlog
+*.lastbuildstate
+*.idb
+*.opensdf
+*.sdf
+
+# Common build folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+out/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
