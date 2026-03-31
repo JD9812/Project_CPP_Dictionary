@@ -19,10 +19,10 @@ Is a C++ application that loads and searches dictionary data from a structured t
 - Enums and Structured data
 
 #Data
-Each Line in input file must follow this format: 
+- Each Line in input file must follow this format: 
   word,part_of_spech,definitions
-Example:
-  Abduction,n.,The act of abducing or abducting; a drawing apart; a carrying away.
+  - Example:
+    Abduction,n.,The act of abducing or abducting; a drawing apart; a carrying away.
 
 #How to run
   - Visual Studio
