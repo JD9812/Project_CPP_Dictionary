@@ -52,6 +52,7 @@ Example:
   - Implement unit testing
   - Optimize search performance
   - Add interactive mode to allow multiple searches without restarting program
+  - Add unit testing
 
 #Author
 Juan Diego Correa Noy
