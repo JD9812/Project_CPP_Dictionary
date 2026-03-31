@@ -30,7 +30,7 @@ Example:
     2. Build solution (Ctrl + Shift + B)
     3. Run program (F5)
   - Command Line
-      g++ -std=c++ -Wall -o dictionary dictionaryMain.cpp dictionary.cpp english_large.csv english_small.csv
+      - g++ -std=c++ -Wall -o dictionary dictionaryMain.cpp dictionary.cpp english_large.csv english_small.csv
 
 #Output Example
   - Germanize - (verb) "To make German, or like what is distinctively German; as, to Germanize a province, a language, a society."
