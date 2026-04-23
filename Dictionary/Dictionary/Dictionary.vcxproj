@@ -133,6 +133,10 @@
     <ClCompile Include="dictionary.cpp" />
     <ClCompile Include="dictionaryMain.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="english_large.csv" />
+    <None Include="english_small.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

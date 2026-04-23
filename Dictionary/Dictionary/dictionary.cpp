@@ -2,8 +2,8 @@
 
 namespace JD {
 
-	bool m_show_all{};
-	bool m_verbose{};
+	bool Dictionary::m_show_all = false;
+	bool Dictionary::m_verbose = false;
 
 	void Dictionary::stripCR(std::string& s) {
 		if (!s.empty() && s.back() == '\r') s.pop_back();
@@ -85,7 +85,7 @@ namespace JD {
 		return *this;
 	}
 
-	Dictionary::Dictionary(Dictionary&& other) {
+	Dictionary::Dictionary(Dictionary&& other) noexcept {
 		m_words = other.m_words;
 		m_size = other.m_size;
 
@@ -93,7 +93,7 @@ namespace JD {
 		other.m_size = 0;
 	}
 
-	Dictionary& Dictionary::operator=(Dictionary&& other) {
+	Dictionary& Dictionary::operator=(Dictionary&& other) noexcept {
 		if (this != &other) {
 			delete[] m_words;
 

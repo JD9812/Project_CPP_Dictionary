@@ -32,18 +32,19 @@ namespace JD {
 		Word* m_words{};
 		size_t m_size{};
 
+	public:
+
 		static bool m_show_all;
 		static bool m_verbose;
 
-	public:
 		Dictionary() = default;
 		Dictionary(const char* fileName);
 
 		Dictionary(const Dictionary& other);
 		Dictionary& operator=(const Dictionary& other);
 
-		Dictionary(Dictionary&& other);
-		Dictionary& operator=(Dictionary&& other);
+		Dictionary(Dictionary&& other) noexcept;
+		Dictionary& operator=(Dictionary&& other) noexcept;
 
 		~Dictionary();
 
