@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dictionary.cpp" />
-    <ClCompile Include="dictionaryMain.cpp" />
+    <ClCompile Include="mainDictionary.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="english_large.csv" />

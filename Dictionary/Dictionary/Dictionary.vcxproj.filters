@@ -23,7 +23,7 @@
     <ClCompile Include="dictionary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dictionaryMain.cpp">
+    <ClCompile Include="mainDictionary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

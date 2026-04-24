@@ -10,7 +10,6 @@ int main(){
 
 	while (choice != 0) {
 
-		std::cout.width(30);
 		std::cout << "Welcome to Dictionary\n";
 		std::cout << "Configuration:\n";
 		std::cout << "Which dictionary would you like to use?\n";
